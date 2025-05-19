@@ -12,7 +12,7 @@ const letterAnimation = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: i * 2.95, // longer delay for smoother effect
+      delay: i *0.15, // longer delay for smoother effect
       type: "spring",
       stiffness: 120,
     },
@@ -35,7 +35,7 @@ const floatingVariants = {
 
 
 const texts = ["FULL-STACK DEVELOPER", "SOFTWARE DEVELOPER", "PROGRAMMER"]
-const typingSpeed = 150 // ms per character
+const typingSpeed = 120 // ms per character
 const delayBetweenTexts = 1000 // ms delay after each full text
 
 
