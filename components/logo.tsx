@@ -9,7 +9,7 @@ export default function Logo() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <span className="text-lg font-bold text-background">P</span>
+      <span className="text-lg font-sans text-background">P</span>
     </motion.div>
   )
 }

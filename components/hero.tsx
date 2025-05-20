@@ -23,13 +23,32 @@ const letterAnimation = {
 const floatingVariants = {
   float: {
     y: [0, -20, 0],
+    scale: [1, 1.2, 1],
+    opacity: [0.5, 2, 0.5], // More intense pulse
     transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: "easeInOut",
+      y: {
+        duration: 4,
+        repeat: Infinity,
+        ease: "easeInOut",
+      },
+      scale: {
+        duration: 4,
+        repeat: Infinity,
+        ease: "easeInOut",
+        delay: 0.5,
+      },
+      opacity: {
+        duration: 4,
+        repeat: Infinity,
+        ease: "easeInOut",
+        delay: 0.25,
+      },
     },
   },
 }
+
+
+
 
 // TypingTitle component for animated subtitle
 

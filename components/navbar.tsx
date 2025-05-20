@@ -110,9 +110,11 @@ export default function Navbar() {
           aria-label="Go to home section"
         >
           <Logo />
-<span className="text-xl font-mono font-medium text-white border-b border-white/50 pb-0.5">
+<span className="text-xl font-sans font-semibold tracking-wide text-white border-b border-white/50 pb-0.5">
   Portfolio
-</span> 
+</span>
+
+ 
        </Link>
 
         {/* Desktop Navigation */}
